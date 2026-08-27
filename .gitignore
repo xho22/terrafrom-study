@@ -1,1 +1,8 @@
 .localstack.env
+
+# Terraform local state and working directory
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
